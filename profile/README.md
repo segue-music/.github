@@ -1,16 +1,6 @@
-<p align="center"><img src="icon.png" alt="" width="140"></p>
-
-<h1 align="center">Segue</h1>
-
-<h3 align="center">Connect for self-hosted music.</h3>
-
-<p align="center">
-  Each of your devices sees what the others are playing, controls any of them, and moves the music
-  from one to another without losing its place, across apps and servers, on OpenSubsonic
-  (Navidrome and others) or Jellyfin.
-</p>
-
----
+Each of your devices sees what the others are playing, controls any of them, and moves the music
+from one to another without losing its place, across apps and servers, on OpenSubsonic
+(Navidrome and others) or Jellyfin.
 
 Apps implement one protocol. A small hub runs next to the media server: it signs devices in with
 the credentials they already use there, keeps the state of each player and routes commands between
