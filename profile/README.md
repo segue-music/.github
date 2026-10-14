@@ -2,6 +2,11 @@ Each of your devices sees what the others are playing, controls any of them, and
 from one to another without losing its place, across apps and servers, on OpenSubsonic
 (Navidrome and others) or Jellyfin.
 
+<p align="center">
+  <a href="https://github.com/segue-music/segue-app"><img src="https://raw.githubusercontent.com/segue-music/segue-app/main/docs/screenshots/devices.webp" width="24.1%" alt="The device picker of Segue's app on a phone: the living room TV, which the phone controls, plays a song; a kitchen speaker has another paused"></a>
+  <a href="https://github.com/segue-music/segue-app"><img src="https://raw.githubusercontent.com/segue-music/segue-app/main/docs/screenshots/tv.webp" width="73.9%" alt="The same song on the living room TV, its lyrics as karaoke beside the cover"></a>
+</p>
+
 Apps implement one protocol. A small hub runs next to the media server: it signs devices in with
 the credentials they already use there, keeps the state of each player and routes commands between
 them. Audio still streams from the media server.
