@@ -22,9 +22,11 @@ them. Audio still streams from the media server.
 | [**segue-app**](https://github.com/segue-music/segue-app) | A music player for Navidrome, other OpenSubsonic servers and Jellyfin, built on Segue Connect. Flutter: Linux, Windows, macOS, Android and iOS |
 
 **Status: early.** The protocol is a first draft, offered to Navidrome as design input
-([#5154](https://github.com/navidrome/navidrome/discussions/5154#discussioncomment-18927485)). The
-hub and the app have run next to a real Navidrome since October 2026. The app's builds for
-Android, Linux and Windows are in [its releases](https://github.com/segue-music/segue-app/releases).
+([#5154](https://github.com/navidrome/navidrome/discussions/5154#discussioncomment-18927485)) and
+put to OpenSubsonic's app and server developers
+([#283](https://github.com/opensubsonic/open-subsonic-api/discussions/283)). The hub and the app
+have run next to a real Navidrome since October 2026. The app's builds for Android, Linux and
+Windows are in [its releases](https://github.com/segue-music/segue-app/releases).
 
 > [!NOTE]
 > **Vibe-coded.** The spec, the hub and the app are written by Claude (through Claude Code), with a
